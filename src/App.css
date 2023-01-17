@@ -24,8 +24,21 @@
   color: white;
 }
 
+body {
+  background-color: #222222;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  display: 'flex'; 
+  justify-content: 'center';
+  align-items: 'center';
+  height: '80vh';
+  background-color: 'gray';
+  border-radius: '5px;'
 }
 
 @keyframes App-logo-spin {
